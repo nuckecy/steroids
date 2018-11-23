@@ -6543,3 +6543,9 @@ html, body {
   background-position: center center, center right;
   background-size: cover, cover;
   background-repeat: repeat, repeat; }
+
+.form-border {
+  border: none; }
+
+.border-input::hover {
+  border-top: 2px solid #000; }

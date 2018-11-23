@@ -99,3 +99,6 @@ html,body {
 .sp-1 {padding: 0 15px 0 15px}
 .gradient-overlay {opacity:.50;background:#000;}
 .bg-image {background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);  background-position: center center, center right;  background-size: cover, cover;  background-repeat: repeat, repeat;}
+
+.form-border {border:none;}
+.border-input::hover {border-top:2px solid #000}
