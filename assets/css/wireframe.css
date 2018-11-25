@@ -6515,11 +6515,25 @@ html, body {
   border-bottom: 2px solid #c4c4c4;
   color: #9a9a9a; }
 
+.for-pass:hover {  border-bottom: 2px solid #a00065;}
+
 .sign-up-text {
   color: #a00065;
   font-weight: 400;
   padding-bottom: 3px;
   border-bottom: 2px solid #a00065; }
+
+.sign-in-text {
+  color: #ff00a2;
+  font-weight: 400;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #ff00a2; }
+
+.sign-in-white {
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #fff; }
 
 .sp-1 {
   padding: 0 15px 0 15px; }
@@ -6529,7 +6543,19 @@ html, body {
   background: #000; }
 
 .bg-image {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
+  background-position: center center, center right;
+  background-size: cover, cover;
+  background-repeat: repeat, repeat; }
+
+.bg-image-pink {
+  background-image: linear-gradient(to bottom, rgba(70, 0, 46, 0.85), rgba(70, 0, 46, 0.85)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
+  background-position: center center, center right;
+  background-size: cover, cover;
+  background-repeat: repeat, repeat; }
+
+.bg-image-white {
+  background-image: linear-gradient(to bottom, rgba(150, 0, 97, 0.85), rgba(150, 0, 97, 0.85)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
   background-repeat: repeat, repeat; }
@@ -6546,3 +6572,5 @@ html, body {
 .btn-text {
   font-size: 0.9rem;
   font-weight: 600; }
+
+a.noul {text-decoration: none; color: inherit !important;}
