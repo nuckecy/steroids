@@ -4407,6 +4407,9 @@ button.bg-danger:hover,
 button.bg-danger:focus {
   background-color: #bd2130 !important; }
 
+.bg-light2 {
+    background-color: rgb(248, 248, 248) !important; }
+
 .bg-light {
   background-color: #eaeaea !important; }
 
@@ -6546,19 +6549,32 @@ html, body {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
-  background-repeat: repeat, repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+.bg-image-light {
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.966)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
+  background-position: center center, center right;
+  background-size: cover, cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
 
 .bg-image-pink {
   background-image: linear-gradient(to bottom, rgba(70, 0, 46, 0.85), rgba(70, 0, 46, 0.85)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
-  background-repeat: repeat, repeat; }
-
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
 .bg-image-white {
   background-image: linear-gradient(to bottom, rgba(150, 0, 97, 0.85), rgba(150, 0, 97, 0.85)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
-  background-repeat: repeat, repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
 
 .form-border {
   border: none; }
@@ -6567,10 +6583,39 @@ html, body {
   border-top: 2px solid #000; }
 
 .btn-flat {
-  background: #999; }
+  background: #a00065; color:#fff; }
 
 .btn-text {
   font-size: 0.9rem;
   font-weight: 600; }
 
 a.noul {text-decoration: none; color: inherit !important;}
+
+.test label, input::placeholder 
+{
+  font-size: 0.7rem;
+}
+
+.form-control,.custom-select
+{
+  border-color: #a000653b !important;
+  box-shadow: none;
+}
+
+input::placeholder 
+{
+  color: rgba(107, 107, 107, 0.8) !important;
+  opacity: 1; /* Firefox */
+}
+
+input:-moz-read-only { /* For Firefox */
+  background-color: rgba(255, 239, 250, 0.24) !important;
+}
+
+input:read-only { 
+  background-color: rgba(255, 221, 245, 0.24) !important;
+}
+
+.input:focus { background-color: none !important; }
+
+.color-specta {color: #a00065;}
