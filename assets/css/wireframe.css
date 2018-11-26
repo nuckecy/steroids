@@ -6594,7 +6594,7 @@ a.noul {text-decoration: none; color: inherit !important;}
 
 .test label, input::placeholder 
 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .form-control,.custom-select
