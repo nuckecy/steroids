@@ -6547,7 +6547,7 @@ html, body {
   background: #000; }
 
 .bg-image {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
   background-repeat: no-repeat;
@@ -6555,7 +6555,7 @@ html, body {
 }
 
 .bg-image-light {
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.966)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.966)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
   background-repeat: no-repeat;
@@ -6563,14 +6563,14 @@ html, body {
 }
 
 .bg-image-pink {
-  background-image: linear-gradient(to bottom, rgba(70, 0, 46, 0.85), rgba(70, 0, 46, 0.85)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
+  background-image: linear-gradient(to bottom, rgba(70, 0, 46, 0.85), rgba(70, 0, 46, 0.85)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
 }
 .bg-image-white {
-  background-image: linear-gradient(to bottom, rgba(150, 0, 97, 0.85), rgba(150, 0, 97, 0.85)), url(https://www.myspecta.com/apply/Cont/assets/images/faq.jpg);
+  background-image: linear-gradient(to bottom, rgba(150, 0, 97, 0.85), rgba(150, 0, 97, 0.85)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
   background-repeat: no-repeat;
