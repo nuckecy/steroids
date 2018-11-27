@@ -6590,6 +6590,12 @@ html, body {
   font-size: 0.9rem;
   font-weight: 600; }
 
+.btn-text-white 
+{
+  font-size: 0.9rem;
+  color: #fff;
+}
+
 a.noul {text-decoration: none; color: inherit !important;}
 
 .test label, input::placeholder, .well-text
