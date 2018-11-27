@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#a00065">
+    <meta name="msapplication-TileImage" content="https://db6ud9d668pjr.cloudfront.net/web/assets/img/specta-icon.png">
+    <meta name="theme-color" content="#a00065">
+    <link rel="manifest" href="assets/manifest.json">
+
+    <title>SpectaBasic - Step 3 - Specta</title>
+    <meta name="description" content="SpectaBasic Login">
+    <meta name="keywords" content="Loans in 5 minutes">
+    <meta name="author" content="Specta by Sterling Bank Plc">
+    <!-- CSS dependencies -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/wireframe.css">
+    <link rel="stylesheet" href="https://db6ud9d668pjr.cloudfront.net/basic/assets/css/general.css">
+    <style>
+        .test {font-size: 1rem !important;}
+  </style>
+</head>
+
+<body class="bg-light bg-image-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-specta-gradient">
+        <div class="container">
+            <a class="navbar-brand " title="Specta Powered by Sterling Bank" data-placement="bottom" data-toggle="tooltip"
+                href="/"><img src="https://db6ud9d668pjr.cloudfront.net/web/assets/img/specta.png" width="110px" alt="Specta"></a>
+            <button aria-label="navSpecta" aria-labelledby="navSpecta" class="navbar-toggler navbar-toggler-right mr-3"
+                type="button" data-toggle="collapse" data-target="#navSpecta">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navSpecta">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link text-white font-weight-bold" href="#">MySpecta</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-white font-weight-bold" href="#">Specta4Business</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav flex-row justify-content-center mt-2 mt-md-0">
+                    <li class="nav-item mx-3 mx-md-1">
+                        <a class="nav-link" href="tel:08170852820" data-placement="bottom" data-toggle="modal"
+                            data-target="#call-modal" title="Call Us">
+                            <img src="https://db6ud9d668pjr.cloudfront.net/web/assets/img/call.svg" alt="Call Us" width="22px">
+                        </a>
+                    </li>
+                    <li class="nav-item mx-3 mx-md-1">
+                        <a class="nav-link" href="/Home/Faq" data-placement="bottom" data-toggle="tooltip" title="Read our FAQ">
+                            <img src="https://db6ud9d668pjr.cloudfront.net/web/assets/img/help.svg" alt="FAQ" width="22px">
+                        </a>
+                    </li>
+                    <li class="nav-item mx-3 mx-md-1">
+                        <a class="nav-link" href="/Home/Blog" data-placement="bottom" data-toggle="tooltip" title="Read our Blog">
+                            <img src="https://db6ud9d668pjr.cloudfront.net/web/assets/img/blogging.svg" alt="365Blog"
+                                width="22px">
+                        </a>
+                    </li>
+                    <li class="nav-item mx-3 mx-md-1">
+                        <a class="nav-link color-change-3x" href="/Home/Choose" data-placement="bottom" data-toggle="tooltip"
+                            title="Access Specta">
+                            <img src="https://db6ud9d668pjr.cloudfront.net/web/assets/img/login-white.svg" alt="Choose Path"
+                                width="22px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="test mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="order-md-1 col-md-4">
+                    <h2><b>Welcome Otobong!</b></h2>
+                    <hr class="mt-1 mb-3">
+                    <p class="text-dark text-justify mr-3 mb-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        book.</p>
+                    <hr class="mt-1 mb-3">
+                    <h6 class="d-flex justify-content-between mb-0 text-uppercase">
+                        <span class="text-muted"><b>Progress Status</b></span>
+                    </h6>
+                    <p class="color-specta text-justify mr-3 mb-3 lead">Step 1 of 5</p>
+                </div>
+                <div class="order-md-2 col-md-7 bg-light2 p-4 rounded">
+                        <h4 class="mb-0 color-specta"><b>Let's complete your profile</b></h4>
+                        <hr class="mt-1 mb-3">
+                        <form class="needs-validation" novalidate="">
+                          <div class="row">
+                              <div class="col-md-6 mb-2"> <label class="mb-0 font-weight-bold" for="title">Do you have a Specta ID?</label>
+                                  <div class="d-block my-1" >
+                                    <div class="custom-control custom-radio">
+                                      <input id="yesSpecta" name="SpectaID" type="radio" class="custom-control-input" checked="" required="" value="on"> 
+                                      <label class="custom-control-label font-weight-bold" for="yesSpecta">Yes, I have a Specta ID!</label> 
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                      <input id="noSpecta" name="SpectaID" type="radio" class="custom-control-input" required="" value="on"> 
+                                      <label class="custom-control-label font-weight-bold" style="padding-top:3px;"for="noSpecta">No, I do not have!</label> 
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-6 mb-2">
+                                <label class="mb-0 font-weight-bold" for="designate">Designation</label>
+                                <select class="custom-select d-block w-100" id="designate" required="">
+                                  <option value="">Select a Title</option>
+                                  <option value="Mr">Mr</option>
+                                  <option value="Mrs">Mrs</option>
+                                  <option value="Master">Master</option>
+                                </select>
+                                <div class="invalid-feedback"> Please select your title. </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-4 mb-2"> <label class="mb-0 font-weight-bold" for="firstName">First name</label>
+                              <input type="text" class="form-control" id="firstName" placeholder="Insert Registered First Name" value=""  readonly>
+                              <div class="invalid-feedback"> Valid first name is required. </div>
+                            </div>
+                            <div class="col-md-4 mb-2"> <label class="mb-0 font-weight-bold" for="midName">Middle Name (optional)</label>
+                              <input type="text" class="form-control" id="midName" placeholder="Please enter Middle Name" value="">
+                              <!-- <div class="invalid-feedback"> Valid last name is required. </div> -->
+                            </div>
+                            <div class="col-md-4 mb-2"> <label class="mb-0 font-weight-bold" for="lastName">Last name</label>
+                              <input type="text" class="form-control" id="lastName" placeholder="Insert Registered Last Name" value=""  readonly>
+                              <div class="invalid-feedback"> Valid last name is required. </div>
+                            </div>
+                          </div>
+                          <div class="mb-2"> <label class="mb-0 font-weight-bold" for="email">Email Address<span class="text-muted"></span></label>
+                            <input type="email" class="form-control" id="email" placeholder="insert registered email" readonly>
+                            <div class="invalid-feedback"> Please enter a valid email address for updates. </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-6 mb-2"> <label class="mb-0 font-weight-bold" for="bvnnum">Bank Verification Number</label>
+                                <input type="text" class="form-control" id="bvnnum" placeholder="" required="">
+                                <!-- <small class="text-muted">Full name as displayed on card</small> -->
+                                <div class="invalid-feedback"> Bank Verification Number is required </div>
+                              </div>
+                              <div class="col-md-6 mb-2"> <label class="mb-0 font-weight-bold" for="mobilenumber">Mobile Number</label>
+                                <input type="text" class="form-control" id="mobilenumber" placeholder="" required="">
+                                <div class="invalid-feedback"> Mobile Number is required </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-6 mb-2"> <label class="mb-0 font-weight-bold" for="datebirth">Date of Birth</label>
+                                <input type="text" class="form-control" id="datebirth" placeholder="" required="">
+                                <div class="invalid-feedback"> Date of Birth is required </div>
+                              </div>
+                              <div class="col-md-6 mb-2"> <label class="mb-0 font-weight-bold" for="state">Current State</label> <select class="custom-select d-block w-100" id="state" required="">
+                                  <option value="">Select a State</option>
+                                  <option value="Lagos">Lagos</option>
+                                  <option value="Akwa Ibom">Akwa Ibom</option>
+                                </select>
+                                <div class="invalid-feedback"> Please provide a valid state. </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 mb-2"> <label class="mb-0 font-weight-bold" for="title">Your Gender</label>
+                                    <div class="d-block my-1" >
+                                      <div class="custom-control custom-radio">
+                                        <input id="female" name="gender" type="radio" class="custom-control-input" checked="" required="" value="on"> 
+                                        <label class="custom-control-label font-weight-bold" for="female">Female</label> 
+                                      </div>
+                                      <div class="custom-control custom-radio">
+                                        <input id="male" name="gender" type="radio" class="custom-control-input" required="" value="on"> 
+                                        <label class="custom-control-label font-weight-bold" for="male">Male</label> 
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-9 mb-2"> <label class="mb-0 font-weight-bold" for="address">Address</label>
+                                  <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                                  <div class="invalid-feedback"> Please enter your shipping address. </div>
+                                </div>
+                            </div>
+                          <hr class="mb-2">
+                          <button class="btn btn-sm btn-block btn-flat" type="submit"><span class="btn-text">Continue</span></button>
+                        </form>
+                      </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-2 text-muted text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 my-4">
+                    <p class="mb-1">© 2018 Sterling Bank Plc</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call Modal -->
+    <div class="modal" id="call-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="padding:1em 1.5em !important;">
+                    <h5 class="modal-title">How to Reach Us!</h5> <button type="button" class="close" data-dismiss="modal">
+                        <span>×</span> </button>
+                </div>
+                <div class="modal-body">
+                    <p>You can reach us on any of the numbers below. <span class="d-block d-sm-none">Tab any number to
+                            call.</span></p>
+                    <a class="lead color-specta" href="tel:08170852820"><i class="fa fa-phone-square color-specta"
+                            aria-hidden="true"></i> 08170852820</a><br>
+                    <a class="lead color-specta" href="tel:08170852815"><i class="fa fa-phone-square color-specta"
+                            aria-hidden="true"></i> 08170852815</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

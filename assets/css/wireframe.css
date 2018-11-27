@@ -6555,7 +6555,7 @@ html, body {
 }
 
 .bg-image-light {
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.966)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.8)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
   background-repeat: no-repeat;
@@ -6601,6 +6601,7 @@ a.noul {text-decoration: none; color: inherit !important;}
 {
   border-color: #a000653b !important;
   box-shadow: none;
+  font-size: 0.8rem;
 }
 
 input::placeholder 
