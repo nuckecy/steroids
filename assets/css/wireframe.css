@@ -5173,6 +5173,9 @@ button.bg-dark:focus {
 .shadow-none {
   box-shadow: none !important; }
 
+.w-15 {
+    width: 18% !important; }
+
 .w-25 {
   width: 25% !important; }
 
@@ -6549,8 +6552,8 @@ html, body {
   background: #000; }
 
 .bg-image {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
-  background-position: center center, center right;
+  background-image: linear-gradient(to bottom, rgba(246, 246, 246, 0.85), rgba(246, 246, 246, 0.85)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
+  background-position: top left;
   background-size: cover, cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -6565,7 +6568,7 @@ html, body {
 }
 
 .bg-image-pink {
-  background-image: linear-gradient(to bottom, rgba(70, 0, 46, 0.85), rgba(70, 0, 46, 0.85)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
+  background-image: linear-gradient(to bottom, rgba(246, 246, 246, 0.85), rgba(246, 246, 246, 0.85)), url(https://db6ud9d668pjr.cloudfront.net/basic/assets/img/spectaman.jpg);
   background-position: center center, center right;
   background-size: cover, cover;
   background-repeat: no-repeat;

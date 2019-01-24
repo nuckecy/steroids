@@ -1,0 +1,8 @@
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    .mr-sm-30 {margin-right:30px}
+
+    .m-nomargin {margin:0rem !important}
+    .m-nopadding {padding:0rem !important}
+}
