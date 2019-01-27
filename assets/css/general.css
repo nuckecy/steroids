@@ -1,62 +1,14 @@
 /* Language Selector */
 .active {font-weight:bold;color:#a00065;}
-/* .active::before {font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f00c\ ";} */
-.languagepicker {
-	background-color: #FFF;
-	display: inline-block;
-	padding: 0;
-	height: 30px;
-	overflow: hidden;
-	transition: all .3s ease;
-	margin: -2px 50px 10px 0;
-	vertical-align: top;
-    float: left;
-    position: absolute;
-    right: 0;
-}
 
-.languagepicker:hover {
-    height: 81px;
-    margin-top: 100px;
-}
+/* Accordion Design */
+.trans-list {min-height: 50vh;}
+.card-header { padding: 0.1rem 1.25rem !important}
+.btn-nl {text-decoration: none !important; font-weight: 600;}
 
-.languagepicker a{
-	color: #000;
-	text-decoration: none;
-}
+/* Dashboard Padding */
+.dash-opt { padding: 50px 50px 10px 50px !important;}
 
-.languagepicker li {
-	display: block;
-	padding: 0px 20px;
-	line-height: 30px;
-	border-top: 1px solid #EEE;
-}
-
-.languagepicker li:hover{
-	background-color: #EEE;
-}
-
-.languagepicker a:first-child li {
-	border: none;
-	background: #FFF !important;
-}
-
-.languagepicker li img {
-	margin-right: 5px;
-}
-
-.roundborders {
-	border-radius: 5px;
-}
-
-.large:hover {
-	/* 
-	don't forget the 1px border!
-	The first language is 40px heigh, 
-	the others are 41px
-	*/
-	height: 245px;
-}
 /* ============= Summary Page Style ============= */
 
 .t-contain
@@ -111,6 +63,9 @@
     .languagepicker {visibility: hidden;}
     .test .offset-3 { margin-left: 0%; margin:20px;}
     .test .display-4 { font-size: 2.5rem;}
+    .trans-list {min-height: 10vh;}
+    .card-header { padding: 0.1rem 0.55rem !important}
+    .dash-opt { padding: 20px !important;margin:20px;}
 }
 
 @media only screen and (max-width: 600px) 
