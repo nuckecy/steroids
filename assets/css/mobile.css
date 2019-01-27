@@ -5,4 +5,6 @@
 
     .m-nomargin {margin:0rem !important}
     .m-nopadding {padding:0rem !important}
+
+    .languagepicker {visibility: hidden;}
 }
