@@ -1,3 +1,8 @@
+/* CARD Style */
+.border-card {border:1px solid #ffd9f1;}
+.border-card:hover {border-color: #a00065; -webkit-transition: .55s all ease; -o-transition: .55s all ease; transition: .55s all ease}
+/* End Cards Styling */
+
 /* Language Selector */
 /* Reset Select */
 .lang select {
@@ -46,7 +51,7 @@
   }
   /* Transition */
   .lang:hover::after {
-    color: #f39c12;
+    color: #a00065;
   }
   .lang::after {
     -webkit-transition: .25s all ease;
@@ -62,6 +67,7 @@
 
 /* Dashboard Padding */
 .dash-opt { padding: 50px 50px 10px 50px !important;}
+.fs-13 {font-size: 13px;}
 
 /* ============= Summary Page Style ============= */
 
@@ -117,7 +123,7 @@
     .languagepicker {visibility: hidden;}
     .test .offset-3 { margin-left: 0%; margin:20px;}
     .test .display-4 { font-size: 2.5rem;}
-    .trans-list {min-height: 10vh;}
+    .trans-list,.card-list {min-height: 10vh;}
     .card-header { padding: 0.1rem 0.55rem !important}
     .dash-opt { padding: 20px !important;margin:20px;}
 }
