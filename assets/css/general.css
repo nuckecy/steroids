@@ -1,8 +1,62 @@
 /* Language Selector */
-.active {font-weight:bold;color:#a00065;}
+/* Reset Select */
+.lang select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #a00065;
+    background-image: none;
+  }
+  /* Custom Select */
+  .lang {
+    position: relative;
+    display: block;
+    width: 7em;
+    height: 2em;
+    line-height: 1;
+    background: #a00065;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  .lang select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0.13em 0 0 .8em;
+    color: #fff;
+    cursor: pointer;
+  }
+  .lang select::-ms-expand {
+    display: none;
+  }
+  /* Arrow */
+  .lang::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.56em 0.53em;
+    background: #000;
+    pointer-events: none;
+  }
+  /* Transition */
+  .lang:hover::after {
+    color: #f39c12;
+  }
+  .lang::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+/* End Language Selector */
 
 /* Accordion Design */
-.trans-list {min-height: 50vh;}
+.trans-list,.card-list  {min-height: 50vh;}
 .card-header { padding: 0.1rem 1.25rem !important}
 .btn-nl {text-decoration: none !important; font-weight: 600;}
 
